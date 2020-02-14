@@ -23,17 +23,22 @@ I then Forecasted the volitility using the GARCH model. The model forecasted inc
 
 ## Conclusion
 I would not buy the yen now. Although the price is projected to rise in the coming 5 days, this comes with the risk of increased volitilty. 
-I also question the validity of the models used to come up with these results, since only one coefficient in my GARCH model would be considered statistically significant(a1<.05). 
+
+I question the validity of the models used to come up with these results, since only one coefficient in my GARCH model would be considered statistically significant(a1<.05). 
+
 All other models have no statistically significant coefficients. 
+
 The risk of the yen is expected to increase over the next 5 days. We can determine this by looking at the 5 day forecast of viotility. However higher volatility leads to more risk which can lead to higher returns. Based on the model evaluation I would not feel confident using these models for trading. Both models have p scores larger than .05 showing no statistical significants.
 
 This model performs best on the out of sample data. We infer this from the RMSE is .41 for the out of sample data and .57 for the in smaple data.
 
 ## Regression Analysis
 Used Regression Analysis to determine Seasonal Effects with SKlearn Linear Regression.
-I first trimmed the data to begin on January first 1990. 
-I then calculated a percentage change and lagged return. 
-I then train, tested and split my data. I then made both out of sample and in sample predicitions using the testing data
+First trimmed the data to begin on January first 1990.
+
+Calculated a percentage change and lagged return. 
+
+Trained, tested and split my data. I then made both out of sample and in sample predicitions using the testing data
 
 - - -
 
