@@ -15,9 +15,13 @@ You will gain proficiency in the following tasks:
 
 ## What I Did
 The time series analysis forecasts historic daily returns for the Yen currency. I first trimmed my data to begin on January 1st 1990. 
+
 Then I plotted the settlement price for my data set. The plot showed a long-term strengthening of the Japanese Yen against the Dollar. There do seem to be some more medium, 1-3 year consistent trends, but on a daily basis, there are a lot of short-term ups and downs. 
+
 I then used the Hddrick-Prescott Filter to decompose the data into noise and trend series.Smoothing with the HP Filter and plotting the resulting trend against the actual futures returns, we can see that there's a lot of short term fluctuations that deviate around this trend. Perhaps these would represent profitable trading opportunities. 
+
 I then forcasted the returns using the ARMA model, and determined that my model was not a good fit. the coeifficient did not appear to be statistically significant. 
+
 I then forcasted the settlement price using an ARIMA Model. The model forecasted that the price of the Yen will climb in the near term. 
 I then Forecasted the volitility using the GARCH model. The model forecasted increasing volitilty in the near term.
 
